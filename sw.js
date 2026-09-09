@@ -1,6 +1,6 @@
 const CACHE_NAME = 'timetable-cache-v1';
 const urlsToCache = [
-  './index.html',
+  './timetable.html',
   './manifest.json',
   './icon.svg'
 ];
