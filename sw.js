@@ -1,9 +1,9 @@
-const CACHE_NAME = 'timetable-cache-v3';
+const CACHE_NAME = 'timetable-cache-v5';
 const urlsToCache = [
-  '/Rintetsu_ryoubi/',
-  '/Rintetsu_ryoubi/index.html',
-  '/Rintetsu_ryoubi/manifest.json',
-  '/Rintetsu_ryoubi/icon.svg'
+  './',
+  './index.html',
+  './manifest.json',
+  './icon.svg'
 ];
 
 self.addEventListener('install', event => {
