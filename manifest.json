@@ -1,13 +1,14 @@
 {
   "name": "ダイヤ比較",
   "short_name": "ダイヤ比較",
-  "start_url": "./",
+  "start_url": "/Rintetsu_ryoubi/",
+  "scope": "/Rintetsu_ryoubi/",
   "display": "standalone",
   "background_color": "#f4f7f6",
   "theme_color": "#2c3e50",
   "icons": [
     {
-      "src": "icon.svg",
+      "src": "/Rintetsu_ryoubi/icon.svg",
       "sizes": "192x192 512x512",
       "type": "image/svg+xml",
       "purpose": "any maskable"

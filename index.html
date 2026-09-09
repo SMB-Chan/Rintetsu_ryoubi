@@ -6,9 +6,9 @@
     <title>倉敷駅周辺〜西富井・穴場神社前 ダイヤ比較表</title>
     
     <!-- PWA用設定 -->
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="/Rintetsu_ryoubi/manifest.json">
     <meta name="theme-color" content="#2c3e50">
-    <link rel="apple-touch-icon" href="icon.svg">
+    <link rel="apple-touch-icon" href="/Rintetsu_ryoubi/icon.svg">
 
     <style>
         body {
@@ -217,7 +217,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('sw.js').then(registration => {
+                navigator.serviceWorker.register('/Rintetsu_ryoubi/sw.js', { scope: '/Rintetsu_ryoubi/' }).then(registration => {
                     console.log('ServiceWorker registration successful');
                 }).catch(err => {
                     console.log('ServiceWorker registration failed: ', err);
